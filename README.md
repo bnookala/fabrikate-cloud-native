@@ -5,7 +5,7 @@ An opinionated open platform cloud native Fabrikate stack for operating Kubernet
 It includes:
 
 ### Cluster Maintainance (via [fabrikate-kured](https://github.com/timfpark/fabrikate-kured))
--   [Kured](https://github.com/weaveworks/kured): Automatic node reboot when OS is patched. 
+-   [Kured](https://github.com/weaveworks/kured): Automatic node reboot when OS is patched.
 
 ### Metrics Monitoring (via [fabrikate-prometheus-grafana](https://github.com/timfpark/fabrikate-prometheus-grafana))
 -   [Prometheus](https://prometheus.io/) Metrics aggregation
@@ -20,4 +20,5 @@ It includes:
 -   [Istio](https://istio.io/): Connect, secure, control, and observe services.
 
 ### Distributed Tracing (via [fabrikate-jaeger](https://github.com/bnookala/fabrikate-jaeger))
+_Presently disabled while Istio identifies better methods for integrating tracing - fabrikate-istio is configured to provide in-memory tracing_
 -   [Jaeger](https://www.jaegertracing.io/): Distributed transaction, latency, and dependency tracing
